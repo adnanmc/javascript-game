@@ -1,0 +1,13 @@
+.control   {
+    margin-top: 50px;
+    
+}
+
+.score {
+    margin-top: 20px;
+}
+
+#btnEasy, #btnHard {
+    margin-right: 10px;
+    
+}

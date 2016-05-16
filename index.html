@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>Game</title>
+</head>
+<body>
+  <div class="container">
+    <div class="control">
+     <div class="row">
+        <div class="col-md-8">
+            <canvas id="gameCanvas" width="700" height="500"></canvas>
+        </div>
+        <div class="col-md-4">
+           
+               <button type="button" class="btn btn-success" id="btnEasy">Easy</button>
+               <button type="button" class="btn btn-warning" id="btnHard">Hard</button>
+               
+               <br>
+               
+               <div class="score">
+                   <p id="player">Player Score:</p>
+                   <br>
+                   <p id="computer">Computer Score:</p>   
+                   <br>
+                   <p id="win"></p>
+        
+               </div>
+               
+        </div>
+         
+     </div>
+      
+  </div>
+</div>
+    <script src="jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
